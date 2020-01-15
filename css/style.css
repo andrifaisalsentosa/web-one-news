@@ -1,0 +1,456 @@
+body{
+	background-color: #f1f1f1;
+}
+.logo-email{
+	font-size: 50px;
+	color: #d32e2a;
+}
+a{
+	color: #000000;
+}
+a:link{
+	color: #000000;
+	text-decoration: none;
+}
+a:hover{
+	color: #000000;
+	text-decoration: none;
+}
+
+/*navigasi*/
+.onews a:hover{
+	text-shadow: 0 0 0.5px white, 0 0 0.5px white, 0 0 0.5px white;
+}
+.nav li a:hover {
+    text-decoration: none;
+    text-shadow: 0 0 0.5px white, 0 0 0.5px white, 0 0 0.5px white;
+}
+.navbar{
+	background-color: #018ace;
+}
+.navbar-default .navbar-nav li a{
+	color: #ffffff;
+	font-size: 16px;
+}
+.navbar-default .navbar-nav li a:hover{
+	color: #ffffff;
+}
+.navbar-default .navbar-nav li a:visited{
+	color: #ffffff;
+}
+.dropdown ul{
+	background-color: #018ace;
+}
+.navbar-default .navbar-nav .open a, .navbar-default .navbar-nav  .open  a:hover, .navbar-default .navbar-nav .open a:focus {
+    color: #ffffff;
+    background-color: #018ace;
+}
+.navbar-default .navbar-nav .open .dropdown-menu li a {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav .open .dropdown-menu li a:hover {
+    color: #ffffff;
+}
+.navbar-default .navbar-toggle {
+    border-color: #018ace;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #018ace;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+.pencarian{
+	margin: auto;
+}
+/*batas navigasi*/
+
+
+
+
+
+
+
+.header{
+	background-color:  #018ace;
+	height: auto;
+}
+.slidebar{
+	background-color: ;
+	height: auto;
+	padding: 0px;
+}
+.batas{
+	height: 15px;
+}
+.link{
+	height: auto;
+}
+.sidebar-content a:hover{
+	color: #018ace;
+}
+.content{
+	background-color: #f1f1f1;
+	height: auto;
+	padding: 20px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+}
+.judul-artikel-full{
+	text-align: center; 
+	font-weight: bold;
+	color: #000;
+}
+.artikel-full p{
+	font-size: 14px; 
+	text-align: justify;
+}
+.content-artikel{
+	padding-right: 0px;
+	padding: 10px;
+	padding-left: 23px;
+}
+.title-artikel{
+	height: 50px;
+	color: #ffffff;
+	text-align: center;
+	font-size: 20px;
+	padding: 10px;
+	background-color: #0086cf;
+	border-radius: 0px 0px 50px 0px;
+}
+.bungkus-artikel{
+	height: auto;
+	background-color: #ffffff;
+	margin-top: 5px;
+	padding: 5px;
+	border-radius: 0px 0px 50px 0px;
+	border: 1px solid #dddddd;
+
+}
+.judul-artikel-a a:hover{
+	color: #018ace;
+}
+.judul-artikel-b a:hover{
+	color: #018ace;
+}
+.judul-artikel-a{
+	font-weight: bold;
+	color: #000;
+}
+.judul-artikel-b{
+	margin-top: 10px;
+	color: #000;
+}
+.desc-artikel{
+	font-size: 13px;
+	color: #666;
+}
+
+
+
+.sidebar{
+	background-color: ;
+	height: auto;
+	padding-bottom: 10px;
+}
+.title-topik-populer{
+	height: 50px;
+	padding: 10px;
+	color: #ffffff;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 0px 50px 0px 0px;
+	background-image: url(../images/sidebar/topik.png);
+}
+.isi-topik-populer{
+	background-color: #ffffff;
+	padding: 20px;
+	font-size: 16px;
+	color: #444;
+	font-weight: bold;
+	padding-left: 0px;
+	padding-right: 0px;
+	border-left: 1px solid #dddddd;
+	border-right: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+	border-radius: 0px 0px 0px 50px;
+}
+.isi-topik-populer a:hover{
+	color: #018ace;
+}
+.isi-topik-populer a{
+	color: #444;
+}
+
+
+.title-acara-tv{
+	margin-top: 15px;
+	height: 50px;
+	padding: 10px;
+	color: #ffffff;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 0px 50px 0px 0px;
+	background-image: url(../images/sidebar/acara-tv.png);
+}
+.isi-acara-tv{
+	background-color: #ffffff;
+	padding: 20px;
+	font-size: 16px;
+	color: #444;
+	font-weight: bold;
+	padding-left: 0px;
+	padding-right: 0px;
+	border-left: 1px solid #dddddd;
+	border-right: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+	border-radius: 0px 0px 0px 50px;
+}
+.isi-acara-tv a:hover{
+	color: #018ace;
+}
+.isi-acara-tv a{
+	color: #444;
+}
+
+
+.title-seputar-bola{
+	margin-top: 15px;
+	height: 50px;
+	padding: 10px;
+	color: #ffffff;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 0px 50px 0px 0px;
+	background-image: url(../images/sidebar/seputar-bola.png);
+}
+.isi-seputar-bola{
+	background-color: #ffffff;
+	padding: 20px;
+	font-size: 16px;
+	color: #444;
+	font-weight: bold;
+	padding-left: 0px;
+	padding-right: 0px;
+	border-left: 1px solid #dddddd;
+	border-right: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+	border-radius: 0px 0px 0px 50px;
+}
+.isi-seputar-bola a:hover{
+	color: #018ace;
+}
+.isi-seputar-bola a{
+	color: #444;
+}
+.isi-seputar-bola-xs{
+	background-color: #ffffff;
+	padding: 20px;
+	font-size: 14px;
+	color: #444;
+	font-weight: bold;
+	padding-left: 0px;
+	padding-right: 0px;
+	border-left: 1px solid #dddddd;
+	border-right: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+	border-radius: 0px 0px 0px 50px;
+}
+.isi-seputar-bola-xs a:hover{
+	color: #018ace;
+}
+.isi-seputar-bola-xs a{
+	color: #444;
+}
+
+
+
+
+
+
+
+
+
+
+.title-amikom{
+	margin-top: 15px;
+	height: 50px;
+	padding: 10px;
+	color: #ffffff;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 0px 50px 0px 0px;
+	background-image: url(../images/sidebar/amikom.png);
+}
+.isi-amikom{
+	background-color: #ffffff;
+	padding: 20px;
+	font-size: 16px;
+	color: #444;
+	font-weight: bold;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-left: 1px solid #dddddd;
+	border-right: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+	border-radius: 0px 0px 0px 50px;
+}
+
+.title-sosial-media{
+	margin-top: 15px;
+	height: 50px;
+	padding: 10px;
+	color: #ffffff;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 0px 50px 0px 0px;
+	background-image: url(../images/sidebar/sosmed.png);
+}
+.isi-sosial-media{
+	background-color: #ffffff;
+	padding: 20px;
+	font-size: 14px;
+	color: #000000;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-left: 1px solid #dddddd;
+	border-right: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+	border-radius: 0px 0px 0px 50px;
+}
+
+.artikel-3-kolom a:hover{
+	color: #018ace;
+}
+.artikel-3-kolom a{
+	color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.title-sidebara{
+	height: 50px;
+	background-color: #ffffff;
+	background-image: url(../images/sidebar/title.png);
+	padding: 10px;
+	color: #ffffff;
+	font-size: 20px;
+	text-align: center;
+	border-right: 1px solid #dddddd;
+}
+.title-sidebarb{
+	height: 50px;
+	background-color: #ffffff;
+	background-image: url(../images/sidebar/title.png);
+	padding: 10px;
+	color: #ffffff;
+	font-size: 20px;
+	text-align: center;
+	border-right: 1px solid #dddddd;
+}
+.title-sidebar{
+	margin-top: 30px;
+	height: 50px;
+	background-color: #ffffff;
+	background-image: url(../images/sidebar/title.png);
+	padding: 10px;
+	color: #ffffff;
+	font-size: 20px;
+	text-align: center;
+	border-right: 1px solid #dddddd;
+}
+.isi-sidebar{
+	background-color: #ffffff;
+	padding: 20px;
+	height: 250px;
+	border-radius: 0px 0px 7px 7px;
+	border-left: 1px solid #dddddd;
+	border-right: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+}
+.footer{
+	background-color: #018ace;
+	height: 50px;
+	text-align: center;
+	padding: 15px;
+	font-size: 14px;
+	color: white;
+}
+.topik-populer{
+	font-size: 16px;
+	color: #444;
+	font-weight: bold;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.topik-populer a:hover{
+	color: #018ace;
+}
+.topik-populer a{
+	color: #444;
+}
+.acara-tv{
+	font-size: 16px;
+	color: #444;
+	font-weight: bold;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.acara-tv a:hover{
+	color: #018ace;
+}
+.acara-tv a{
+	color: #444;
+}
+.underline{
+	border-bottom: 1px solid #e5e5e5;
+	padding-bottom: 6px;
+	display: inline-block;
+	width: calc(100% - 40px);
+}
+.sepak-bola{
+	font-size: 16px;
+	color: #444;
+	font-weight: bold;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.sepak-bola a:hover{
+	color: #018ace;
+}
+.sepak-bola a{
+	color: #444;
+}
+.iklan{
+	border: none;
+	background-color: #f1f1f1;
+	height: auto;
+	padding: 0px;
+}
+.form{
+	padding: 15px;
+	text-align: center;
+	color: #fff;
+	background-color: rgba(0,0,0,0.4);
+	border-radius: 10px;
+}
+.form-control{
+	margin-bottom: 15px;
+}
